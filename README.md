@@ -1,27 +1,18 @@
-# ServicesSPA
+# Angular Text Handler
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
+Este proyecto consiste en una aplicación web destinada a la manipulación de texto. Permite introducir un texto y obtener un resultado a partir de algun tratamiento del mismo en base a las siguientes operaciones:
 
-## Development server
+-Reset: Limpia el area de texto donde escribe el usuario.
+-Reverse: Devuelve el texto invertido (P.E.: hola -> aloh)
+-Uppercase: Pasa a mayúsculas todo el texto.
+-Lowercase: Pasa a minúsculas todo el texto.
+-Char Count: Devuelve la cuenta de todos los caracteres introducidos.
+-No spaces: Elimina todos los caracteres espacio del texto
+-Encode Base64: Devuelve la codificación Base64 del texto.
+-Decode Base64: Devuelve la decodificación Base64 del texto.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+La aplicación ha sido desarrollada con HTML5/CSS/Typescript y con el framework Angular y el objetivo de la misma es practicar los decoradores @Input y @Output así como la inyección de servicios.
 
-## Code scaffolding
+URL: https://javiersuarezsuarez.github.io/AngularTextHandler/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+¡Espero que la disfrutes!
