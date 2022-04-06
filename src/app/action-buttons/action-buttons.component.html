@@ -1,0 +1,21 @@
+<div id="action_div">
+    <p id ="action_subheader">{{actionSubheaderText}}</p>
+    
+    <div class="button_div">
+        <button mat-raised-button color="warn" (click)="doOperation('reset')">Reset</button>
+        <button mat-raised-button color="primary" (click)="doOperation('reverse')">Reverse</button>
+        <button mat-raised-button color="primary" (click)="doOperation('uppercase')">Uppercase</button>
+        <button mat-raised-button color="primary" (click)="doOperation('lowercase')">Lowercase</button>
+        <button mat-raised-button color="primary" (click)="doOperation('charcount')">Char Count</button>
+        <button mat-raised-button color="primary" (click)="doOperation('nospaces')"> No spaces</button>
+        <button mat-raised-button color="primary" (click)="doOperation('base64')"> Encode Base64</button>
+        <button mat-raised-button color="primary" (click)="doOperation('decode')">Decode Base64</button>
+        
+    </div>
+    
+
+</div>
+
+<!--Child component: Receives the textArea from his father and tranfers the resulting text to the grandchild component (OutputText)-->
+<app-output-text [resultText] = "result"></app-output-text>
+

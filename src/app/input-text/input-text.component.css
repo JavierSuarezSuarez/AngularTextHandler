@@ -1,0 +1,15 @@
+
+#input_div {
+    float: left;
+    margin-left: 10%;
+}
+
+#input_subheader{
+    margin-left: 12%;
+    margin-bottom: 9%;
+    color: black;
+    font-weight: bold;
+    font-size: 29px;
+    align-items: flex-start;
+}
+

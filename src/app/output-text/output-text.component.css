@@ -1,0 +1,22 @@
+#output_div{
+    display: grid;
+    grid-template-columns: auto;
+    width: 28%;
+    margin-left: 58%;
+    text-align: center;
+    height: 41%;
+}
+
+#output_subheader{
+    color: black;
+    font-weight: bold;
+    font-size: 29px;
+    align-items: flex-start;
+    width: 121%;
+    margin-bottom: 6%;
+}
+
+
+#output_txt_area{
+    margin-left: 13%;
+}
